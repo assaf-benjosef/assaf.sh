@@ -18,6 +18,8 @@ body, html {
     font-family: 'Fira Code', 'Courier New', Courier, monospace;
     font-size: 16px;
     overflow-x: hidden;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
 }
 
 /* CRT Screen Effect */
@@ -104,13 +106,13 @@ pre {
 }
 
 #title {
-    font-size: clamp(12px, 2vw, 24px); 
+    font-size: min(1.8vw, 24px); 
     font-weight: bold;
     margin-bottom: 2rem;
 }
 
 #orca {
-    font-size: clamp(10px, 1.2vw, 18px);
+    font-size: min(1.8vw, 18px);
     margin-bottom: 3rem;
     color: #cccccc; 
 }
